@@ -1,239 +1,296 @@
-// Rich, niche-accurate content blocks + centralized COPY for Dairy Insurance.
-
 import {
-  PhoneCall, FileSearch, FileSignature, ShieldCheck,
-  Building2, Truck, HardHat, Package, Droplets, Milk,
+  PhoneCall,
+  FileSearch,
+  FileSignature,
+  ShieldCheck,
+  Wrench,
+  HardHat,
+  Droplets,
+  Truck,
+  Umbrella,
+  Building2,
+  Award,
+  Handshake,
 } from "lucide-react";
 
-/* ============================================================
-   COPY — centralized display strings consumed by components/pages.
-   ============================================================ */
 export const COPY = {
   hero: {
-    h1Lead: "Dairy farm insurance that protects",
-    h1Highlight: "the herd, the milk, and the operation",
+    h1Lead: "Shoring and Excavation Support Contractor",
+    h1Highlight: "Insurance",
     subcopy:
-      "Livestock mortality, milking-parlor and barn property, equipment breakdown with milk spoilage, dairy product liability, manure-runoff pollution, workers' comp, and milk-tanker auto — purpose-built for dairy operations. A-rated carriers. 15-minute quotes.",
-    statValue: "240+",
-    statLabel: "Dairy operations insured — herds, parlors, creameries, and family dairies",
-    imageAlt: "Dairy farm at dawn — milking herd in pasture with barn and parlor",
+      "Specialty insurance for shoring contractors, underpinning specialists, excavation support firms, and earth retention contractors. GL, professional liability, workers comp, and pollution liability — built for the specific risks of shoring and deep excavation work.",
+    imageAlt: "Shoring contractor installing soldier pile and lagging system at deep urban excavation site",
+    statValue: "300+",
+    statLabel: "Shoring contractors insured nationwide",
   },
-  nav: { ariaLabel: "Dairy Insurance home" },
+  nav: { ariaLabel: "Shoring Insurance navigation" },
   footer: {
-    ctaTitle: "Ready to protect your dairy operation?",
-    ctaSubcopy: "15-minute quotes. 2-hour claims response. Insurance for dairy farms and dairy operations nationwide.",
+    ctaTitle: "Get a Shoring Contractor Insurance Quote",
+    ctaSubcopy:
+      "Soldier pile, sheet pile, underpinning, tiebacks — we write programs for every type of shoring and excavation support contractor. 15-minute quotes, A+ carriers.",
     description:
-      "Specialized insurance for dairy farms and dairy operations — livestock mortality, farm property, equipment breakdown and milk spoilage, dairy product liability, manure-runoff pollution, workers' comp, and commercial auto. A division of Contractors Choice Agency — founded 2005, licensed all 50 states.",
+      "Specialty insurance for shoring and excavation support contractors. General liability, professional liability, workers compensation, commercial auto, pollution liability, and inland marine for shoring contractors.",
   },
   servicesGrid: {
-    h2Lead: "Coverage built specifically for",
-    h2Highlight: "dairy farms",
-    lead: "Standard farm policies undervalue registered stock, exclude milk spoilage, and miss the manure-runoff exposure. We build programs designed for working dairies.",
+    eyebrow: "Coverage built for shoring contractors",
+    h2Lead: "Shoring Contractor Insurance",
+    h2Highlight: "Coverage Lines",
+    lead: "From general liability and professional liability to workers compensation and pollution liability — full programs for shoring and excavation support contractors.",
+    featuredSlug: "general-liability",
+    featuredBadge: "Core coverage",
   },
   why: {
-    eyebrow: "Why dairies switch to us",
-    h2Lead: "The coverage gaps that",
-    h2Highlight: "cost dairy farms the most",
-    lead: "Most agents hand a dairy a generic farm-owner policy and call it done. Then a barn fire, a bulk-tank failure, or a manure-runoff claim hits and the exclusion kicks in. We underwrite the parts of your operation everyone else leaves out.",
-    sidebarTitle: "Run by people who know agriculture",
+    eyebrow: "The CCA difference",
+    h2Lead: "Why Shoring Contractors",
+    h2Highlight: "Choose CCA",
+    lead: "Shoring work creates risks that generic contractor programs don't address — adjacent structure damage, professional liability for engineered designs, and pollution from disturbed soil contamination.",
+    sidebarTitle: "Shoring Contractor Specialists",
     sidebarBody:
-      "Contractors Choice Agency was founded in 2005 by people from the trades and the land. We've walked parlors, valued registered stock, and know what a milking system or bulk tank costs to replace.",
+      "We understand the specific exposures of shoring contractors — adjacent structure damage risk, professional liability for shoring system designs, workers comp for excavation cave-in and equipment injuries, and the pollution liability risk of disturbing contaminated soil in urban environments.",
   },
   coverage: {
-    eyebrow: "Where we write",
-    h2Lead: "Dairy farm coverage.",
-    h2Highlight: "All 50 states.",
-    lead: "From Wisconsin and California to the Northeast creameries and Southwest desert dairies, Contractors Choice Agency writes dairy insurance in every state where dairy operations run.",
-    imageAlt: "Dairy farm landscape with milking herd, barns, and parlor — national dairy coverage",
-    badgeTitle: "National coverage for dairy operations.",
-    badgeSub: "Writing dairy programs in all 50 states since 2005.",
+    eyebrow: "Comprehensive shoring contractor protection",
+    h2Lead: "Full-Spectrum Coverage for",
+    h2Highlight: "Shoring Contractors",
+    lead: "Shoring and excavation support work creates GL, professional, workers compensation, and pollution exposures. We build programs that address all of them.",
+    imageAlt: "Shoring contractor crew working on deep excavation with tieback anchors",
+    badgeTitle: "Licensed all 50 states",
+    badgeSub: "Writing shoring contractor programs nationwide",
   },
   process: {
-    lead: "No two-week back-and-forth. A real conversation, real markets, and a program you can actually understand — built around your herd and operation.",
+    lead: "Getting shoring contractor insurance shouldn't slow your projects down. Our process is built for fast turnaround.",
   },
   testimonials: {
-    eyebrow: "From dairy producers",
-    h2Lead: "Dairies that found",
-    h2Highlight: "coverage that actually pays",
+    eyebrow: "What shoring contractors say",
+    h2Lead: "Trusted by Shoring and Excavation",
+    h2Highlight: "Contractors Nationwide",
   },
   finalCta: {
-    h2Lead: "Protect Your Dairy Operation",
-    h2Highlight: "with coverage built for the herd.",
-    lead: "Whether you need livestock mortality today or a full program — property, equipment and spoilage, workers' comp, pollution, and auto — one call gets you real quotes from specialty ag markets. Not a voicemail and a two-week wait.",
+    h2Lead: "Ready to Protect Your",
+    h2Highlight: "Shoring Business?",
+    lead: "Get a specialty insurance quote for your shoring and excavation support operation. 15 minutes to a complete program from A+ rated carriers who understand shoring contractor risks.",
   },
   ctaBand: {
-    defaultTitle: "Ready to protect your dairy operation?",
+    defaultTitle: "Get Your Shoring Contractor Insurance Quote",
     defaultDescription:
-      "Get a 15-minute quote from specialists who understand dairy farming — livestock mortality, parlors, bulk tanks and chillers, and manure exposure.",
+      "GL, professional liability, workers comp, and pollution liability — programs built for shoring and excavation support contractors nationwide.",
   },
   faq: {
-    defaultTitleLead: "Dairy farm insurance,",
-    defaultTitleHighlight: "in plain English",
+    defaultTitleLead: "Shoring Insurance",
+    defaultTitleHighlight: "Questions Answered",
   },
   servicesPage: {
-    metaTitle: "Dairy Farm Insurance Coverage & Services",
+    metaTitle: "Shoring Contractor Insurance | All Coverage Lines",
     metaDescription:
-      "Eight lines of insurance built for dairy farms: livestock mortality, farm property, equipment breakdown and milk spoilage, dairy product liability, general liability, workers' comp, commercial auto, and pollution. Licensed all 50 states.",
-    h1Lead: "Insurance built line-by-line for",
-    h1Highlight: "dairy farms",
-    lead: "Each policy below addresses a specific exposure in dairy farming — from the livestock mortality a standard farm policy undervalues to the bulk-tank and spoilage coverage your property program needs to handle correctly.",
-    ogTitle: "Dairy Farm Insurance Coverage | Contractors Choice Agency",
+      "Complete insurance programs for shoring and excavation support contractors — general liability, professional liability, workers compensation, commercial auto, umbrella, inland marine, and pollution liability.",
+    h1Lead: "Shoring Contractor",
+    h1Highlight: "Coverage Lines",
+    lead: "Every coverage line shoring contractors need — from GL and professional liability to workers comp and pollution liability for disturbed soil contamination.",
+    ogTitle: "Shoring Contractor Insurance | All Coverage Lines",
     ogDescription:
-      "Livestock mortality, farm property, equipment breakdown and spoilage, dairy product liability, GL, workers' comp, commercial auto, and pollution — written specifically for dairy farms.",
-    ctaTitle: "Not sure which lines you need?",
+      "Specialty insurance for shoring and excavation support contractors — GL, professional liability, workers comp, and pollution liability. 15-minute quotes, all 50 states.",
+    ctaTitle: "Get Your Shoring Contractor Insurance Quote",
     ctaDescription:
-      "Most dairy farms bundle livestock mortality + property + equipment & spoilage + workers' comp + pollution into one coordinated program. We'll build the right mix in one call.",
+      "We write programs for soldier pile contractors, sheet pile contractors, underpinning specialists, and tieback contractors nationwide.",
   },
   blogPage: {
-    metaTitle: "Dairy Farm Insurance Blog — Guides & Insights",
+    metaTitle: "Shoring Insurance Blog | Shoring Contractor Resources",
     metaDescription:
-      "Practical insurance guidance for dairy farms: livestock mortality, milking-parlor property, equipment breakdown and milk spoilage, manure-runoff pollution, and workers' comp for dairy crews.",
-    h1Lead: "Dairy farm insurance,",
-    h1Highlight: "decoded",
-    lead: "Plain-English guides on the coverage that matters for dairy operations — livestock mortality, parlors and barns, bulk tanks and chillers, manure and runoff, and workers' comp for dairy crews.",
-    ogTitle: "Dairy Farm Insurance Blog | Contractors Choice Agency",
-    ogDescription:
-      "Practical insurance guidance for dairy farms: livestock mortality, milking-parlor property, equipment breakdown and milk spoilage, manure-runoff pollution, and workers' comp for dairy crews.",
+      "Insurance insights for shoring and excavation support contractors — risk management, coverage guidance, and industry resources for underpinning, soldier pile, and earth retention specialists.",
+    h1Lead: "Shoring Insurance",
+    h1Highlight: "Resources",
+    lead: "Coverage guidance and risk management resources for shoring and excavation support contractors.",
+    ogTitle: "Shoring Insurance Blog",
+    ogDescription: "Insurance insights for shoring and excavation support contractors.",
   },
   serviceDetail: {
-    h1Suffix: "for dairy farms",
-    imageAltSuffix: "dairy farming",
-    category: "Dairy Farm Insurance",
+    h1Suffix: "for Shoring Contractors",
+    imageAltSuffix: "shoring contractor insurance",
+    category: "Specialty Contractor Insurance",
   },
   about: {
-    metaTitle: "About Dairy Insurance | Contractors Choice Agency",
+    metaTitle: "About Shoring Insurance | Contractors Choice Agency",
     metaDescription:
-      "Dairy Insurance is the dairy-focused division of Contractors Choice Agency, founded in 2005 by former contractor Josh Cotner. Livestock mortality, farm property, equipment breakdown and spoilage, product liability, and pollution for dairy farms. Licensed all 50 states.",
-    h1Lead: "Built by people who know the land,",
-    h1Highlight: "for dairy operations",
-    lead: "Dairy Insurance is the dairy-focused division of Contractors Choice Agency — founded in 2005 by Josh Cotner, who knows exactly what happens when a livestock-mortality undervaluation or a spoilage exclusion shows up in a claim denial.",
-    imageAlt: "A dairy farmer in the milking parlor with the herd",
-    storyEyebrow: "Our story",
-    storyTitle: "From the jobsite to the agency.",
+      "Shoring Insurance is a specialty program by Contractors Choice Agency — insuring shoring and excavation support contractors since 2005. Licensed all 50 states, NPN 8608479.",
+    h1Lead: "About Shoring",
+    h1Highlight: "Insurance",
+    lead: "We are Contractors Choice Agency — specialty insurance for shoring and excavation support contractors since 2005. Programs built for soldier pile, sheet pile, underpinning, and tieback contractors.",
+    imageAlt: "Contractors Choice Agency team assisting shoring contractors",
+    storyEyebrow: "Who we are",
+    storyTitle: "Built for Shoring Contractors",
     storyLead:
-      "Josh Cotner ran equipment, read specs, and filed certificates before founding CCA in 2005. That background is why we understand what's at stake when a dairy barn burns, a bulk tank fails, and the farm's carrier cites a coverage gap.",
-    valuesTitle: "Four things we won't compromise on.",
+      "Contractors Choice Agency has been writing specialty contractor insurance since 2005. Our shoring contractor program addresses the specific risks of earth retention work — adjacent structure damage liability, professional liability for engineered shoring designs, and the pollution liability exposure of disturbing contaminated soil in urban environments.",
     timeline: [
-      { year: "2005", title: "Contractors Choice Agency founded", desc: "Josh Cotner opens CCA in Chandler, AZ, after years working in the trades — built to insure farms, contractors, and operators the right way." },
-      { year: "15 yrs", title: "Expanded to specialty agricultural markets", desc: "After placing programs for dozens of specialty contractor and trade categories, CCA extends expertise to dairy and livestock operations with unique risk profiles." },
-      { year: "Today", title: "Dedicated dairy division", desc: "Dairy Insurance focuses CCA's expertise on dairy producers — operations where livestock mortality, parlors and bulk tanks, spoilage, and manure exposure are the real risks." },
+      { year: "2005", title: "Founded", desc: "Contractors Choice Agency opens, focused on specialty contractor insurance programs." },
+      { year: "2011", title: "Shoring Program Developed", desc: "Developed dedicated programs for shoring and excavation support contractors, including professional liability for design-build shoring operations." },
+      { year: "2016", title: "All 50 States", desc: "Licensed nationwide, writing shoring contractor programs for urban development and infrastructure projects coast to coast." },
+      { year: "2024", title: "300+ Shoring Contractors", desc: "Over 300 shoring and excavation support contractors trust CCA for their specialty insurance programs." },
     ],
+    valuesTitle: "How We Work",
     values: [
-      { icon: "HardHat", title: "Operator-first, always", desc: "Josh spent years in the trades before starting the agency. We speak the language of dairy farming because we know what happens when coverage fails at claim time." },
-      { icon: "ShieldCheck", title: "Coverage that closes the gaps", desc: "Livestock undervaluation, equipment and spoilage exclusions, and manure-runoff exposure — we address the risks standard farm markets miss." },
-      { icon: "Award", title: "A-rated markets only", desc: "We shop carriers with the financial strength and agricultural experience to be there when a barn fire, a bulk-tank failure, or a pollution claim hits." },
-      { icon: "Handshake", title: "Honest, no-pressure advice", desc: "If you don't need a line of coverage, we'll tell you. We earn trust by being straight about what your dairy actually requires." },
+      { icon: "HardHat", title: "Shoring Specialists", desc: "We understand the adjacent structure risk, professional liability exposure, and workers comp patterns of shoring and excavation support work. We do not learn your business from scratch when you call." },
+      { icon: "ShieldCheck", title: "Coordinated Programs", desc: "GL, professional liability, workers comp, pollution liability, inland marine — coordinated programs so there are no gaps when a claim hits on an excavation project." },
+      { icon: "Award", title: "A+ Rated Carriers", desc: "We place shoring contractor programs with AM Best A+ rated specialty insurers who understand earth retention and excavation support risk." },
+      { icon: "Handshake", title: "Long-Term Relationships", desc: "Shoring contractors work with us year after year. We understand your projects, your clients, and how to build programs that grow with your business." },
     ],
   },
   quote: {
-    h1Lead: "Get your",
-    h1Highlight: "dairy farm insurance quote",
-    lead: "Tell us about your herd and operation. We'll shop A-rated specialty ag markets and come back with real quotes in about 15 minutes — no obligation.",
-    businessPlaceholder: "Maple Ridge Dairy LLC",
-    emailPlaceholder: "janet@mapleridgedairy.com",
-    phonePlaceholder: "(608) 555-0100",
+    h1Lead: "Get Your Shoring Contractor",
+    h1Highlight: "Insurance Quote",
+    lead: "Tell us about your shoring operation — system types, project scale, design-build or install-only, and states — and we will build a program around your specific risk profile.",
+    trustNicheTitle: "Built for Shoring Contractors",
+    trustNicheDesc:
+      "We write programs for soldier pile contractors, sheet pile contractors, underpinning specialists, tieback contractors, and earth retention firms.",
+    errorMessage: "Something went wrong. Please call us at 844-967-5247.",
+    businessPlaceholder: "ABC Shoring Contractors LLC",
+    emailPlaceholder: "you@shoringcontractors.com",
+    phonePlaceholder: "(555) 000-0000",
     messagePlaceholder:
-      "Herd size, milking system, parlor type, equipment value, acres and feed, coverage lines needed, current insurer, loss history, or anything else that helps us quote accurately…",
-    errorMessage: "Something went wrong. Please call us at 844-967-5247 or try again.",
-    trustNicheTitle: "Built for dairies",
-    trustNicheDesc: "Policies written for dairy operations — not generic farm-owner coverage.",
+      "Tell us about your shoring operation — system types (soldier pile, sheet pile, underpinning, tiebacks), design-build vs install-only, typical project types, states, annual revenue...",
   },
   contact: {
-    h1Lead: "Let's talk about your",
-    h1Highlight: "dairy farm coverage",
-    lead: "Questions, a quote, or a claim — reach a person who knows dairy farming, not a queue.",
-    errorMessage: "Something went wrong. Please call us at 844-967-5247.",
+    h1Lead: "Contact Shoring",
+    h1Highlight: "Insurance",
+    lead: "Questions about specialty coverage for your shoring and excavation support operation? Our specialists understand shoring contractor risks.",
+    errorMessage: "Something went wrong. Please call us directly at 844-967-5247.",
   },
   coveragePage: {
-    metaTitle: "Dairy Farm Insurance — National Coverage, All 50 States",
+    metaTitle: "Shoring Contractor Insurance Coverage | What's Covered",
     metaDescription:
-      "Contractors Choice Agency writes dairy farm insurance in all 50 states — Wisconsin, California, the Northeast, Pacific Northwest, Southwest, and everywhere dairy operations run.",
-    h1Lead: "National reach.",
-    h1Highlight: "All 50 states, every dairy market.",
-    lead: "Contractors Choice Agency places dairy insurance programs in all 50 states — from Wisconsin and California to the Northeast creameries and Southwest desert dairies.",
-    sectionTitle: "Dairy farming regions we serve.",
+      "What shoring contractor insurance covers — GL with adjacent structure protection, professional liability for shoring designs, workers comp, pollution liability for contaminated soil, and inland marine for shoring equipment.",
+    h1Lead: "Shoring Contractor",
+    h1Highlight: "Insurance Coverage",
+    lead: "Comprehensive coverage for the full range of shoring and excavation support contractor risks — adjacent structure liability, professional liability for designs, workers comp, and pollution liability.",
+    sectionTitle: "Coverage Areas for Shoring Contractors",
     nationwideLead:
-      "Whether your dairy is in Wisconsin, California, the Northeast, the Great Plains, or anywhere in between — one agent, one coordinated program. NPN #8608479.",
+      "We write shoring contractor programs in all 50 states — from Los Angeles urban high-rise excavation support to New York City underpinning to Chicago deep foundation work to Houston urban development.",
     faqs: [
-      { q: "Do you only insure dairy farms in certain regions?", a: "No. Contractors Choice Agency is licensed in all 50 states and writes dairy programs for farms anywhere in the country — Wisconsin, California, the Northeast, Pacific Northwest, Southwest, Great Plains, and everywhere in between." },
-      { q: "Can you write coverage if we ship milk or haul across state lines?", a: "Yes. We structure programs so your product liability, property, workers' comp, and commercial auto coverage coordinate across state lines without gaps — including milk tankers and feed trucks that cross borders." },
-      { q: "Do you understand the specific risks of my state's dairy market?", a: "Yes. We work with specialty ag markets that understand regional differences — Wisconsin and Northeast registered-stock herds, California large-herd water-quality rules, and Southwest desert-dairy lagoon exposure." },
-      { q: "Can you coordinate coverage across multiple locations or leased ground?", a: "Yes. If you milk at multiple sites, raise heifers off-site, or lease ground, we build one coordinated program so there are no gaps between owned, leased, and custom operations." },
+      {
+        q: "Does GL cover adjacent structure damage from shoring operations?",
+        a: "GL covers third-party property damage from your shoring operations, including damage to adjacent structures from excavation, vibration, and ground movement. However, GL has exclusions for expected or intended damage, and professional liability covers the engineering judgment failures that can be alleged when adjacent structure damage occurs during a shoring project.",
+      },
+      {
+        q: "Why do shoring contractors need professional liability?",
+        a: "Shoring system design — whether done by an engineer on your staff or through a PE stamp process — creates professional liability exposure. If a shoring system fails or underperforms and the cause is alleged to be a design error or inadequate specification, professional liability covers the resulting claim. GL does not cover professional service failures.",
+      },
+      {
+        q: "What pollution liability exposure do shoring contractors have?",
+        a: "Urban excavation and shoring work frequently encounters contaminated soil, groundwater, and underground conditions. When shoring and excavation operations disturb contaminated materials, pollution conditions can result — creating third-party claims and cleanup obligations that GL's pollution exclusion denies. Pollution liability covers these events.",
+      },
+      {
+        q: "What workers comp risks are specific to shoring contractors?",
+        a: "Shoring contractor workers comp covers excavation cave-in injuries, equipment operator injuries (drill rig, crane), falls into excavations and from elevated work platforms, ground movement injuries during shoring installation, and the musculoskeletal injuries from heavy shoring material handling. Correct classification for shoring work is important for premium accuracy.",
+      },
+      {
+        q: "Do shoring contractors need umbrella coverage?",
+        a: "Urban construction projects and major building foundations increasingly require $5M or more in total liability capacity from shoring contractors. The adjacent structure damage exposure on major urban projects — where an adjacent structure could suffer millions in damage — also justifies umbrella coverage above standard GL limits.",
+      },
+      {
+        q: "What inland marine coverage do shoring contractors need?",
+        a: "Your shoring equipment — drill rigs, soldier pile drivers, tieback equipment, sheet pile vibratory hammers, and shoring materials — is not covered by GL. An inland marine floater covers this equipment at project sites, in transit, and at your yard against theft, vandalism, and physical damage.",
+      },
     ],
   },
 } as const;
 
-/* ============================================================
-   PROCESS
-   ============================================================ */
 export const PROCESS = [
-  { step: "01", icon: PhoneCall, title: "Tell us about your dairy", description: "15-min call or form. Herd size and value, milking system and parlor, equipment and feed, and the coverage lines your old carrier excluded." },
-  { step: "02", icon: FileSearch, title: "We shop specialty ag markets", description: "Niche markets that actually write dairy livestock mortality and spoilage — not generic farm markets that carve them out." },
-  { step: "03", icon: FileSignature, title: "Bind a program built for dairy", description: "Livestock mortality + property + equipment & spoilage + workers' comp + pollution, coordinated so there are no gaps across your operation." },
-  { step: "04", icon: ShieldCheck, title: "Claims support that moves fast", description: "When a barn fire, bulk-tank failure, or runoff claim arrives, you reach a person with context — not a queue. 2-hour response." },
+  {
+    step: 1,
+    icon: PhoneCall,
+    title: "Contact Us About Your Shoring Operation",
+    description:
+      "Call 844-967-5247 or submit an online quote. Tell us about your shoring system types, whether you do design-build or install-only, and your typical project environments.",
+  },
+  {
+    step: 2,
+    icon: FileSearch,
+    title: "We Evaluate Your Risk Profile",
+    description:
+      "We review your shoring operation — system types, adjacent structure exposure, professional services scope, crew size, and states — and identify the right carrier and program structure.",
+  },
+  {
+    step: 3,
+    icon: FileSignature,
+    title: "Receive Your Complete Program",
+    description:
+      "We present GL, professional liability, workers comp, pollution liability, and inland marine — coordinated program with coverage explanations and premium breakdown.",
+  },
+  {
+    step: 4,
+    icon: ShieldCheck,
+    title: "Bind and Get Certificates",
+    description:
+      "Approve the program. We bind coverage and issue certificates with the AI endorsements and policy language your project owners, GCs, and developers require.",
+  },
 ] as const;
 
-/* ============================================================
-   WHY CHOOSE US
-   ============================================================ */
 export const WHY_CHOOSE = [
-  { icon: ShieldCheck, title: "Livestock mortality valued like it should be", description: "Standard farm policies pay grade-cattle values for registered stock. We place mortality coverage that reflects the real value of your milking cows and breeding animals." },
-  { icon: Droplets, title: "Equipment breakdown with milk spoilage", description: "Milking systems, bulk tanks, and chillers fail — and a tank of milk spoils with them. We build equipment-breakdown programs that include the spoilage that follows." },
-  { icon: Milk, title: "Manure-runoff and environmental coverage", description: "Every dairy carries lagoon and nutrient-runoff exposure. Standard policies exclude it. We place environmental liability that covers a release into soil or water." },
-  { icon: Building2, title: "Farm property built for livestock exposure", description: "Parlors, freestall barns, silos, and feed storage don't fit generic forms — and livestock and manure change the fire and liability profile. We schedule it correctly." },
-  { icon: Package, title: "We place the hard dairy risks", description: "Been declined over manure exposure, a barn-fire loss run, or OSHA citations? We have E&S markets for dairies others won't touch." },
-  { icon: HardHat, title: "Run by a former contractor", description: "Josh Cotner knows how operations work and what happens when coverage fails at claim time — on the farm and off." },
+  {
+    icon: ShieldCheck,
+    title: "Adjacent Structure Risk Expertise",
+    description:
+      "Adjacent structure damage is the largest liability exposure for urban shoring contractors. We structure GL with coverage that addresses adjacent structure claims and coordinate with professional liability for the engineering judgment component.",
+  },
+  {
+    icon: FileSignature,
+    title: "Professional Liability for Shoring Designs",
+    description:
+      "Design-build shoring contractors face professional liability exposure from their engineered systems. We write E&O coverage for shoring contractors that covers design errors, specification failures, and professional judgment claims.",
+  },
+  {
+    icon: Droplets,
+    title: "Pollution Liability for Urban Excavation",
+    description:
+      "Urban excavation frequently encounters contaminated soil and groundwater. We include pollution liability in shoring contractor programs to cover the contamination disturbance events that GL's pollution exclusion denies.",
+  },
+  {
+    icon: HardHat,
+    title: "Shoring-Specific Workers Comp",
+    description:
+      "Workers comp for shoring contractor crews requires correct classification for excavation work, equipment operation, and shoring installation. We verify classification and place coverage with carriers who understand shoring operations.",
+  },
 ] as const;
 
-/* ============================================================
-   HOMEPAGE FAQ — 20 questions
-   ============================================================ */
 export const HOME_FAQS = [
-  { q: "What insurance does a dairy farm need?", a: "A working dairy typically needs livestock mortality for the herd, farm property for barns and the milking parlor, equipment breakdown with milk spoilage, dairy product liability, general liability, workers' compensation, commercial auto for milk tankers and feed trucks, and pollution/environmental coverage for manure and runoff. Most dairies carry all eight as one coordinated program." },
-  { q: "How much does dairy farm insurance cost?", a: "It depends on herd size and value, parlor and equipment value, payroll and crew size, acreage and feed inventory, and loss history. Small pasture dairies may pay a few thousand a year; large parlor operations with high-value registered stock and significant equipment run considerably more. We quote your actual operation in about 15 minutes — never a generic estimate." },
-  { q: "Does farm insurance cover dairy cattle death?", a: "Only if livestock mortality is specifically scheduled. A standard farm-owner policy covers buildings and liability but pays little or nothing for the death of animals. Livestock mortality insurance is what covers the herd against death from disease, accident, disaster, and theft." },
-  { q: "What's the difference between named-peril and full-mortality livestock coverage?", a: "Named-peril (limited) mortality pays only for death from specific listed causes — fire, lightning, certain accidents. Full (broad) mortality covers death from almost any cause, including disease. Full mortality costs more but is what most dairies want for valuable milking cows and registered breeding stock." },
-  { q: "Does my farm property policy cover the milking parlor and bulk tank?", a: "It can, but only if they're properly scheduled and valued. Many farm policies cap or exclude specialized equipment, or pay actual cash value with heavy depreciation. We schedule parlors, bulk tanks, and chillers at replacement cost so a loss doesn't leave you underinsured." },
-  { q: "Is milk spoilage covered if my chiller or bulk tank fails?", a: "Not under a standard property policy. Milk and product spoilage from equipment breakdown requires an equipment-breakdown endorsement (often called boiler & machinery) with a spoilage component. Without it, a chiller failure that ruins a full bulk tank is an uncovered loss." },
-  { q: "Do I need product liability if I sell milk to a co-op or processor?", a: "Often yes. If you bottle, process, sell raw milk, direct-market, or produce cheese or other dairy products, product liability covers bodily-illness and recall claims from contaminated or mislabeled product. Even dairies shipping to a co-op can be named in a downstream foodborne-illness claim." },
-  { q: "Does dairy farm insurance cover manure runoff and lagoon spills?", a: "Standard farm and general liability policies exclude pollution. Manure storage, lagoon failure, nutrient and fertilizer runoff, and chemical leaks need dedicated pollution/environmental liability — which we place specifically for dairies." },
-  { q: "Do I need workers' compensation for dairy employees?", a: "In most states, yes — workers' comp is required once you have employees, and dairy work is high-hazard. Animal handling, parlor slip and crush injuries, equipment and PTO incidents, and chemical exposure all make proper workers' comp essential. We class-code dairy labor correctly." },
-  { q: "What class codes apply to dairy farm workers?", a: "Dairy operations carry several codes — milking and herd workers, feeding and field crews, equipment operators, and office staff. Correct classification matters: wrong codes mean overpayment, undercoverage, and audit surprises. We assign codes to your actual workflow." },
-  { q: "Are milk tankers and feed trucks covered under farm auto or commercial auto?", a: "Vehicles used on public roads — milk tankers, feed and commodity trucks, pickups, and tractors in transit — need commercial auto. Farm auto forms often limit or exclude over-the-road trucking and hired/non-owned use. We coordinate auto with your inland marine and transit coverage." },
-  { q: "Is my dairy covered if a barn fire kills part of the herd?", a: "Only with the right coverage in place. The barn is covered under farm property, but the animals lost are covered under livestock mortality — and only up to their scheduled value. A barn fire is one of the most common ways dairies discover their stock was undervalued." },
-  { q: "Does dairy insurance cover agri-tourism and farm tours?", a: "Agri-tourism, farm tours, petting zoos, and on-farm events add premises-liability exposure that standard farm policies often exclude or under-limit. General liability with an agri-tourism endorsement covers visitor injuries — tell us if you host the public." },
-  { q: "What happens during a claim if my herd records are incomplete?", a: "Livestock mortality claims are paid against records — animal ID, breed, value, and sometimes vet history. Incomplete records mean delayed or reduced payments. We help you document the herd properly up front so a claim is paid quickly and at full value." },
-  { q: "Are registered and show cattle valued differently than grade cattle?", a: "Yes. Registered, show, and high-genetic animals carry values far above grade cattle and must be insured individually on their merit. Standard mortality pays a flat rate; we schedule high-value animals at their real worth." },
-  { q: "Can you insure an organic or grazing-based dairy differently?", a: "Yes. Organic dairies carry the premium value of certified stock and feed, and pasture-based and seasonal dairies have different equipment, labor, and feed profiles. We tailor the program — including organic feed and certified-stock values — to how you actually farm." },
-  { q: "Do you write dairy insurance in all 50 states?", a: "Yes. Contractors Choice Agency is licensed in all 50 states and has markets for dairy operations whether your farm is in Wisconsin, California, the Northeast, or anywhere in between." },
-  { q: "How fast can we get a dairy insurance quote?", a: "Typically 15 minutes on a call. For larger programs with high-value stock or significant equipment we may need a day or two to involve the right markets, but we move fast and tell you the timeline up front." },
-  { q: "Will you insure a dairy that's been declined or has prior losses?", a: "Often yes. We have admitted and excess-and-surplus (E&S) markets for dairies declined over manure exposure, a prior barn-fire or mortality loss run, OSHA citations, or other issues. Bring us what you have and we'll find a path." },
-  { q: "Should I bundle all my dairy coverage with one program?", a: "Usually yes. Bundling livestock mortality, property, equipment & spoilage, workers' comp, pollution, and auto into one coordinated program closes gaps between policies and is almost always cheaper and cleaner than separate policies from separate carriers." },
-];
+  { q: "What insurance does a shoring contractor need?", a: "Shoring contractors typically need: GL with adjacent structure damage coverage; professional liability for engineered shoring designs; workers comp covering cave-in, equipment, and fall risks; commercial auto; inland marine for shoring equipment; pollution liability for contaminated soil disturbance; and umbrella for project owner limit requirements." },
+  { q: "Does GL cover damage to adjacent structures during shoring?", a: "GL covers third-party property damage from your operations, including adjacent structure damage. However, GL has exclusions for expected or intended damage, and professional liability covers the engineering judgment failures alleged when adjacent structure damage occurs. Both coverages work together on shoring claims." },
+  { q: "Why do shoring contractors need professional liability?", a: "Shoring system design — whether you have an in-house PE or use a design professional — creates professional liability exposure. If a shoring system fails or adjacent structure damage occurs and the cause is alleged to be a design error, professional liability covers the claim. GL does not cover professional service failures." },
+  { q: "What pollution liability exposure do shoring contractors have?", a: "Urban excavation frequently disturbs contaminated soil and groundwater. When shoring and excavation operations create pollution conditions from disturbed contamination, GL's pollution exclusion can deny coverage for cleanup costs and third-party claims. Pollution liability covers those events." },
+  { q: "What workers comp risks are specific to shoring contractors?", a: "Shoring workers comp covers: excavation cave-in injuries; drill rig and crane operator injuries; falls from elevated shoring platforms or into excavations; ground movement injuries during shoring installation; and musculoskeletal injuries from heavy shoring material handling." },
+  { q: "Do shoring contractors need umbrella coverage?", a: "Major urban projects — high-rise foundations, transit construction, dense urban development — often require $5M to $10M in total liability capacity from shoring contractors. Adjacent structure damage exposure on large projects also justifies umbrella above standard GL limits." },
+  { q: "What is the difference between shoring and underpinning insurance?", a: "Shoring and underpinning are related but distinct activities — shoring stabilizes excavation walls and adjacent structures, while underpinning transfers load from an existing structure to deeper foundations. Both fall within the same specialty insurance niche, and our programs cover both shoring and underpinning contractors." },
+  { q: "Do you write shoring contractor insurance in all 50 states?", a: "Yes. We are licensed in all 50 states and write shoring contractor programs nationwide — from urban high-rise excavation projects in California and New York to transit construction in Seattle and Denver to commercial development in Texas and Florida." },
+  { q: "What is an earth retention contractor and do you insure them?", a: "Earth retention contractors install systems to retain soil at excavation boundaries — soldier pile and lagging, sheet pile, soldier pile and tieback, soil nail walls, and slurry walls. These contractors face the same risk profile as shoring contractors and are covered under our specialty program." },
+  { q: "How does pollution liability work for shoring contractors who encounter contaminated soil?", a: "When shoring or excavation work disturbs pre-existing soil contamination, the resulting pollution conditions — contaminated groundwater migration, soil dust, contaminated material transport — can create third-party claims. Pollution liability covers these third-party bodily injury, property damage, and cleanup cost claims that GL excludes under the pollution exclusion." },
+  { q: "What professional liability limits do shoring contractors need?", a: "The right limit depends on project scale and the value of adjacent structures. For shoring contractors working adjacent to major commercial or residential buildings, professional liability limits of $1M to $5M are common. If a shoring system failure could result in significant adjacent structure damage, coverage limits should reflect that exposure." },
+  { q: "Can new shoring contractors get insurance?", a: "Yes. We insure shoring contractors from startup to established multi-crew operations. New businesses with limited operating history may have fewer carrier options for professional liability, but we can typically place a complete program that meets initial project requirements." },
+  { q: "What inland marine coverage do shoring contractors need?", a: "Drill rigs, soldier pile drivers, tieback grouting equipment, vibratory hammer systems, and specialty shoring tools represent significant capital. An inland marine floater covers this equipment at project sites, in transit, and at your yard — against theft, damage, and loss." },
+  { q: "Does GL cover vibration damage to adjacent structures from shoring work?", a: "GL can cover property damage from vibration, but the coverage depends on how the claim is characterized. If vibration damage is presented as expected or intended from your operations, GL exclusions may apply. Professional liability addresses the engineering judgment component of vibration control failures. We structure your program to address vibration damage claims." },
+  { q: "How quickly can I get a shoring contractor insurance quote?", a: "We target 15-minute turnaround for standard shoring contractor programs. Design-build shoring contractors needing professional liability or operations with significant pollution liability exposure may take additional time. Call 844-967-5247 for fastest service." },
+  { q: "What is a soil nail wall and does shoring insurance cover it?", a: "Soil nail walls are earth retention systems using passive soil nails to stabilize cut slopes and excavations. Contractors installing soil nail walls face the same GL, professional liability, and workers comp exposures as other shoring contractors. Yes, our programs cover soil nail wall contractors." },
+  { q: "Do shoring contractors need separate coverage for tieback installation?", a: "Tieback installation — drilling and grouting anchors to retain shoring walls — is typically covered within a shoring contractor's GL and professional liability program. The specific tieback installation operations, grouting, and anchor testing are part of the shoring scope that your program addresses." },
+  { q: "What documentation helps with shoring contractor insurance claims?", a: "Pre-construction surveys of adjacent structures, monitoring data from settlement instrumentation, project records showing shoring design specifications were followed, inspection reports during shoring installation, and communication records documenting any deviation approvals. This documentation supports both professional liability defense and GL claim handling." },
+  { q: "Can I get shoring contractor insurance if I have prior claims?", a: "Yes, in most cases. Prior claims don't automatically disqualify you — underwriters review circumstances, what changed, and your current safety and quality programs. We work with multiple carriers who write shoring contractors with prior claims history." },
+  { q: "How do I contact Shoring Insurance?", a: "Call 844-967-5247 (Mon–Fri 8am–5pm MST), email josh@contractorschoiceagency.com, or submit the online quote form. We are at 12220 E Riggs Road, Suite #105, Chandler AZ 85249. NPN 8608479, licensed all 50 states." },
+] as const;
 
-/* ============================================================
-   GENERAL FAQ — pads service & location pages to 20.
-   ============================================================ */
 export const GENERAL_FAQS = [
-  { q: "How much does dairy farm insurance cost?", a: "Cost is driven by herd size and value, parlor and equipment value, payroll, feed inventory, and loss history. We quote your actual operation in about 15 minutes — never a ballpark from a generic farm form." },
-  { q: "Do you write dairy insurance in all 50 states?", a: "Yes. Contractors Choice Agency is licensed in all 50 states and writes dairy programs nationwide — Wisconsin, California, the Northeast, Pacific Northwest, Southwest, and everywhere dairy operates." },
-  { q: "How fast can we get a quote?", a: "Typically 15 minutes on a call. Larger or higher-value programs may take a day or two to place with the right markets, but we move fast and set expectations up front." },
-  { q: "Will you insure a dairy that's been declined or has prior losses?", a: "Often yes. We have admitted and E&S markets for dairies declined over manure exposure, prior loss runs, OSHA citations, or other issues. Bring us your situation and we'll find a market." },
-  { q: "Should I bundle all my dairy coverage with one program?", a: "Usually yes. A coordinated program closes gaps between policies and is typically cheaper than separate policies from separate carriers — and far easier to manage at claim time." },
-  { q: "What does an A-rated carrier mean and why does it matter?", a: "A.M. Best ratings reflect a carrier's financial strength and ability to pay claims. We place coverage with A-rated (and A.M. Best A+ where possible) carriers so the coverage is there when a barn fire, bulk-tank failure, or pollution claim hits." },
-  { q: "Do you insure organic, grazing-based, and raw-milk dairies?", a: "Yes. Organic herds carry premium stock and feed value; pasture-based and seasonal dairies have different equipment and labor profiles; raw-milk and direct-market operations carry added product-liability exposure. We tailor each program accordingly." },
-  { q: "How are registered and show cattle valued at claim time?", a: "Registered, show, and high-genetic animals are scheduled individually at their real value — not a flat grade-cattle rate. Proper individual scheduling is what ensures a mortality claim pays what the animal was actually worth." },
-  { q: "What information do you need to quote my dairy?", a: "Herd size and breakdown, animal values (especially registered stock), parlor type and milking system, equipment list and values, acreage and feed inventory, payroll and crew size, current coverage, and loss history. The more detail, the more accurate the quote." },
-  { q: "Does dairy insurance cover agri-tourism and farm tours?", a: "It can, with the right endorsement. Hosting tours, petting zoos, or events adds visitor-liability exposure that standard policies under-cover. Tell us if the public visits and we'll add agri-tourism liability." },
-  { q: "Are seasonal and pasture-based dairies insured differently?", a: "Yes. Seasonal calving and grazing dairies have different feed, labor, and equipment patterns — and often lower confinement exposures. We reflect how you actually farm in the rating and coverage, not a generic confinement-dairy code." },
-  { q: "What happens if my herd records are incomplete at claim time?", a: "Livestock claims are paid against records. Incomplete ID, breed, or value records mean delays and reduced payments. We help you document the herd properly up front so a claim is settled quickly and fully." },
-  { q: "Can you coordinate coverage across multiple locations or leased ground?", a: "Yes. If you milk at multiple sites, raise heifers off-site, or lease acreage, we build one coordinated program covering owned, leased, and custom operations with no gaps." },
-  { q: "Do you offer coverage for on-farm processing and creameries?", a: "Yes. If you bottle, make cheese, butter, or other products, or run a creamery, we add product liability, equipment breakdown, and property coverage specific to processing — beyond a standard dairy farm policy." },
-];
+  { q: "Is Shoring Insurance licensed nationwide?", a: "Yes. Contractors Choice Agency holds licenses in all 50 states and writes shoring contractor programs coast to coast. NPN 8608479." },
+  { q: "What carriers do you work with?", a: "AM Best A+ rated specialty carriers with appetites for shoring and excavation support contractor risks. Carrier selection depends on your specific operation, states, and system types." },
+  { q: "How do I submit a claim?", a: "Call 844-967-5247 immediately. We provide 2-hour claims response during business hours." },
+  { q: "Can I pay monthly?", a: "Yes. Monthly payment plans and premium finance options are available for shoring contractor programs." },
+  { q: "Do you issue same-day certificates?", a: "Yes. Once coverage is bound, we issue certificates same day including AI endorsements as required by project owners and GCs." },
+  { q: "How long has Contractors Choice Agency been insuring shoring contractors?", a: "Since 2005 — over 20 years. Shoring and excavation support contractor programs have been a specialty focus since 2011." },
+  { q: "What do I need to get a quote?", a: "Business name, years in operation, annual revenue, number of employees, shoring system types, whether you are design-build or install-only, states where you work, and claims history for the past 5 years." },
+  { q: "Do you insure smaller shoring contractors?", a: "Yes. We insure shoring contractors of all sizes — from two-person underpinning crews to established multi-crew earth retention firms." },
+  { q: "Can you handle professional liability for design-build shoring?", a: "Yes. Professional liability for design-build shoring contractors is a core part of our program. We structure E&O coverage for the professional services component of your shoring work." },
+  { q: "Do you coordinate workers comp across states for shoring contractors?", a: "Yes. Multi-state workers comp coordination is standard for shoring contractors who follow projects across state lines." },
+  { q: "Phone number?", a: "844-967-5247, Monday through Friday 8am to 5pm Mountain Time." },
+  { q: "Office location?", a: "12220 E Riggs Road, Suite #105, Chandler, AZ 85249." },
+  { q: "Email?", a: "josh@contractorschoiceagency.com." },
+  { q: "Can I get a quote online?", a: "Yes. Submit the quote form at shoringinsurance.com/quote and we will respond within 15 minutes during business hours." },
+] as const;
 
-/* ============================================================
-   SERVICE DETAIL
-   ============================================================ */
 export interface ServiceDetail {
   heroBlurb: string;
   whatsCovered: string[];
@@ -243,153 +300,117 @@ export interface ServiceDetail {
 }
 
 export const SERVICE_DETAIL: Record<string, ServiceDetail> = {
-  "livestock-mortality": {
-    heroBlurb: "Insurance for your milking cows, heifers, calves, and registered breeding stock against death from disease, accident, disaster, and theft — the #1 undervalued risk on a dairy. Standard farm policies barely cover it.",
-    whatsCovered: ["Death of milking cows, dry cows, heifers, and calves from accident or disease", "Loss from barn fire, lightning, windstorm, and other natural disasters", "Theft and mysterious disappearance of high-value animals", "Full (broad) mortality for death from almost any cause", "Named-peril (limited) mortality for listed catastrophic causes", "Individual scheduling of registered, show, and high-genetic animals at real value"],
-    whoItsFor: ["Dairies with registered, show, or high-genetic breeding stock", "Operations whose herd value exceeds what a farm-owner policy would pay", "Creameries and dairies with capital tied up in expensive milking cows", "Any producer whose current policy pays only grade-cattle rates for animals"],
-    whyCca: ["We value your herd on its real merit — not a flat rate per head", "Full-mortality and named-peril options matched to each class of stock", "E&S market access for dairies with prior mortality loss runs"],
-    faqs: [
-      { q: "Doesn't my farm-owner policy cover dead cattle?", a: "Barely. A standard farm policy covers buildings and liability and pays little or nothing for the death of an animal. Livestock mortality is the coverage that actually insures the herd against death from disease, accident, disaster, and theft." },
-      { q: "How are my cows valued under livestock mortality?", a: "Grade cattle are typically valued at a set market rate; registered, show, and high-genetic animals are scheduled individually on their merit. The difference at claim time can be enormous — which is why proper scheduling matters before a loss." },
-      { q: "What's the difference between full and named-peril mortality?", a: "Named-peril pays only for listed causes (fire, lightning, certain accidents). Full mortality covers death from almost any cause, including disease. Most dairies want full mortality on valuable milking cows and breeding stock." },
-      { q: "Is disease covered under livestock mortality?", a: "Under full (broad) mortality, yes — death from disease is covered subject to the policy terms and any health disclosures. Named-peril policies generally exclude disease, which is why high-value herds usually carry full mortality." },
-      { q: "Does mortality cover theft of animals?", a: "Yes — theft and, on some forms, mysterious disappearance of scheduled animals are covered perils under a full-mortality policy. Documentation and animal ID strengthen the claim." },
-      { q: "What do I need to document to insure the herd properly?", a: "Animal ID (tags or tattoos), breed, age, and value — and for registered stock, registration papers. Good records up front mean a mortality claim is paid quickly and at full value rather than disputed." },
-      { q: "Can you insure animals in transit or at a show?", a: "Yes. Transit and exhibition coverage can be added so animals are insured while being hauled or shown — common exposures for registered-stock and show operations." },
-    ],
-  },
-  "farm-property": {
-    heroBlurb: "All-risk farm property coverage for the dairy complex — freestall barns, milking parlors, commodity sheds, bunker and commodity silos, and feed storage — built for livestock and manure exposures and scheduled at replacement cost.",
-    whatsCovered: ["Freestall and tiestall barns, parlors, and holding areas", "Commodity sheds, bunkers, and commodity and bunker silos", "Feed storage structures and the feed and inventory inside them", "Shop, equipment, and outbuildings", "Business interruption during restoration after a covered loss", "Debris removal and rebuild after a barn fire"],
-    whoItsFor: ["Dairies with significant investment in barns and parlor infrastructure", "Operations with large feed and commodity storage", "Farms in wildfire, windstorm, or lightning-exposed regions", "Any dairy whose property is scheduled at actual cash value with depreciation"],
-    whyCca: ["Buildings and equipment scheduled at replacement cost — not ACV", "Livestock and manure exposure reflected in the underwriting — not a generic farm form", "Business interruption with a restoration period that fits specialty-equipment lead times"],
-    faqs: [
-      { q: "Why replacement cost instead of actual cash value?", a: "ACV pays today's depreciated value. A 20-year-old parlor valued at ACV might receive a fraction of its rebuild cost. For dairy infrastructure with long lead times, ACV leaves you dramatically underinsured after a fire." },
-      { q: "Does farm property cover barn fires?", a: "Yes — fire is a covered peril. The key add-ons are replacement cost (not ACV), debris removal, and business interruption with a restoration period that accounts for the time it takes to rebuild a parlor and restock." },
-      { q: "Are my feed and silos covered?", a: "Yes — feed inventory and the silos and commodity structures that hold it are scheduled under the property program. We value feed at its replacement cost so a spoiled or destroyed inventory doesn't become an uncovered loss." },
-      { q: "Does livestock and manure exposure change my property rate?", a: "It can. Livestock confinement and manure handling change the fire-loading and liability profile of a property. We document your housekeeping and handling so underwriters rate the real exposure — not a worst-case assumption." },
-      { q: "What happens to my income if the parlor burns down?", a: "Business interruption coverage replaces lost income during the restoration period. Because rebuilding a parlor and restocking takes time, we set a restoration period that fits dairy reality, not a generic 6-month default." },
-    ],
-  },
-  "equipment-spoilage": {
-    heroBlurb: "Covers mechanical or electrical breakdown of milking systems, plate coolers, bulk tanks, compressors, and chillers — plus the milk and product spoilage that follows when cooling or processing fails. Standard property excludes both.",
-    whatsCovered: ["Milking system and parlor equipment mechanical/electrical failure", "Bulk tank and plate cooler breakdown", "Compressor and chiller failure", "Milk and dairy product spoilage from equipment or power failure", "Boiler and pressure-vessel failure", "Cost to repair or replace failed equipment"],
-    whoItsFor: ["Any dairy that stores milk in a bulk tank (essentially all of them)", "Operations with significant investment in cooling and milking equipment", "Creameries and on-farm processors with refrigeration and processing equipment", "Dairies whose property policy excludes spoilage or equipment breakdown"],
-    whyCca: ["Equipment breakdown paired with a spoilage component — not one or the other", "Equipment scheduled at replacement cost with fast claim handling", "Coordinates with business interruption so downtime is covered too"],
-    faqs: [
-      { q: "Isn't equipment breakdown covered by my property policy?", a: "Standard property covers external causes — fire, wind, theft. It excludes internal mechanical or electrical failure (compressor burnout, motor failure, electrical fault). Equipment-breakdown coverage fills that gap." },
-      { q: "Is the spoiled milk covered if my chiller fails?", a: "Only with a spoilage component on the equipment-breakdown policy. Without it, a chiller or compressor failure that ruins a full bulk tank is an uncovered loss — and that's a significant dollar amount." },
-      { q: "What about spoilage from a power outage?", a: "Many equipment-breakdown/spoilage forms include utility-interruption coverage for spoilage caused by an off-premises power outage, subject to a time deductible. We confirm the off-premises power language so a grid outage doesn't become an uncovered loss." },
-      { q: "How fast is an equipment-breakdown claim paid?", a: "Fast — because on a dairy, downtime is measured in lost milk. We work with carriers that handle breakdown and spoilage claims quickly so you can repair or replace equipment and get back to milking." },
-      { q: "Does this cover the boiler or water heater?", a: "Yes — boiler and pressure-vessel coverage is typically part of the equipment-breakdown (boiler & machinery) form, along with the milking, cooling, and processing equipment." },
-    ],
-  },
-  "dairy-product-liability": {
-    heroBlurb: "Coverage for bodily injury or property damage from contaminated, mislabeled, or defective milk and dairy products after they leave your farm or creamery — including recall costs and defense when a foodborne-illness or adulteration claim is made.",
-    whatsCovered: ["Bodily illness from contaminated or adulterated milk and dairy product", "Property damage arising from a defective product", "Defense costs when named in a processor, retailer, or consumer lawsuit", "Recall costs when a batch must be retrieved", "Completed-operations coverage extending after delivery", "Coverage for direct-market, bottled, and value-added products"],
-    whoItsFor: ["Dairies that bottle, process, or make cheese, butter, or other products", "Raw-milk and herd-share operations", "Direct-market and on-farm retail sellers", "Any dairy that can be named in a downstream foodborne-illness chain"],
-    whyCca: ["We place dairy product liability with specialty food/ag markets — not generic carriers", "Combined GL + Product programs with unified limits available", "Recall expense included — not a costly add-on"],
-    faqs: [
-      { q: "Do I need product liability if I just ship to a co-op?", a: "Often yes. Even when a co-op or processor takes your milk, a foodborne-illness or adulteration claim can trace back to the farm. Product liability covers your defense and exposure in that chain." },
-      { q: "Isn't this covered by general liability?", a: "Standard GL often contains product exclusions or low sublimits for food products. Dedicated dairy product liability covers the food-safety exposure GL was never built for — including recall costs." },
-      { q: "Is raw milk or direct-market dairy covered?", a: "Yes — and it's especially important there. Raw-milk, herd-share, and direct-market operations carry higher product-liability exposure and need coverage that specifically addresses those sales channels." },
-      { q: "Does product liability cover a recall?", a: "With the right form, yes. Recall expense — retrieving a batch, notification, and lost product — is included in the product-liability programs we place, rather than a separate and costly endorsement." },
-      { q: "What limits should a dairy carry?", a: "It depends on your channels and volume. Direct-market and value-added producers typically need higher limits. We model your realistic worst-case exposure and size the limit — with umbrella above it for large operations." },
-    ],
-  },
   "general-liability": {
-    heroBlurb: "Third-party bodily injury and property damage protection for farm visitors, agri-tourism, deliveries, custom raising, and the day-to-day operations of running a working dairy.",
-    whatsCovered: ["Third-party bodily injury on the farm premises", "Visitor and tour injuries (with agri-tourism endorsement)", "Property damage caused during deliveries and hauling", "Custom heifer raising and contract operations", "Defense costs and legal fees", "Products-completed operations coverage"],
-    whoItsFor: ["Any dairy with visitors, vendors, and delivery operations", "Farms that host tours, events, or agri-tourism", "Operations that raise or handle cattle for others", "Dairies required to provide GL certificates to co-ops or buyers"],
-    whyCca: ["GL structured with products-completed operations for long claim tails", "Agri-tourism and visitor-liability endorsements when the public visits", "Coordinated with product and pollution liability so there are no gaps"],
+    heroBlurb: "General liability for shoring contractors covers third-party bodily injury and property damage from your shoring, underpinning, and excavation support operations — including the adjacent structure damage exposure that makes shoring GL distinctive.",
+    whatsCovered: ["Third-party bodily injury at shoring project sites","Adjacent structure damage from shoring and excavation operations","Third-party property damage from ground movement and vibration","Completed operations — claims arising after shoring work is complete","Defense costs for covered claims"],
+    whoItsFor: ["Soldier pile and lagging contractors on urban excavation projects","Sheet pile contractors on deep foundation and waterfront work","Underpinning contractors on adjacent structure support projects","Tieback and anchor contractors on earth retention systems"],
+    whyCca: ["GL structured with coverage for adjacent structure damage — not a generic contractor form","AI endorsements for project owners, GCs, and developers — same-day certificates","Completed operations coverage for shoring work with post-completion liability","Coordination with professional liability for engineering judgment components of adjacent structure claims"],
     faqs: [
-      { q: "Does GL cover farm tours and agri-tourism?", a: "Only with the right endorsement. Standard farm GL under-covers visitor injuries. If the public visits — tours, petting zoos, events — we add agri-tourism liability to cover those claims." },
-      { q: "Do I need separate GL for custom heifer raising?", a: "If you raise or handle cattle for others, your liability exposure expands and should be reflected in the GL. We make sure contract and custom operations are covered, not excluded as a 'business' the form didn't contemplate." },
-      { q: "How does GL coordinate with product and pollution liability?", a: "GL covers premises and operations; product liability covers the milk; pollution covers manure and runoff. We coordinate all three so there's no gap where a claim falls between policies — which is where most coverage disputes happen." },
+      { q: "Does GL cover cracks in adjacent buildings from shoring?", a: "GL can cover adjacent structure damage from your shoring operations. Professional liability covers the engineering judgment failures alleged when adjacent structure damage occurs. Both work together on shoring-related adjacent structure claims." },
+      { q: "What GL limits do shoring contractors need?", a: "$1M per occurrence / $2M aggregate is a common baseline. Urban projects with significant adjacent structure value may require $2M per occurrence or higher — umbrella provides additional capacity." },
+    ],
+  },
+  "professional-liability": {
+    heroBlurb: "Professional liability for shoring contractors covers claims alleging that your shoring system design, engineering specifications, or professional recommendations caused a failure or adjacent structure damage — the professional component of shoring risk that GL doesn't address.",
+    whatsCovered: ["Shoring system design failures — system deflection or failure beyond design parameters","Adjacent structure damage claims alleging design-inadequate shoring","Specification errors in shoring drawings and design documents","Tieback and anchor design failure claims","Professional recommendations on shoring methodology"],
+    whoItsFor: ["Design-build shoring contractors who provide engineered shoring designs","Shoring contractors with in-house professional engineers","Underpinning contractors who design underpinning systems","Any shoring contractor whose professional services component could be the basis of a claim"],
+    whyCca: ["E&O carriers who understand shoring system design risk — not generic contractor E&O","Claims-made coverage with tail options explained clearly","Coverage limits scaled to project values and adjacent structure exposure","Coordination with GL for shoring claims that involve both professional and physical work components"],
+    faqs: [
+      { q: "When does a shoring failure become a professional liability claim?", a: "When the claim alleges that the shoring design, specifications, or professional judgment was inadequate — as opposed to installation defect claims, which are GL. Adjacent structure damage often generates both types of allegations simultaneously." },
+      { q: "Does professional liability cover the cost of redesigning a failed shoring system?", a: "E&O covers third-party financial losses from your professional errors, not your cost to re-perform work. The third-party damages — adjacent structure repair, project delay costs — are the E&O claim." },
     ],
   },
   "workers-compensation": {
-    heroBlurb: "Coverage for the real injury patterns in dairy work — animal-handling and trampling injuries, parlor slip and crush injuries, equipment and PTO incidents, and chemical and manure-exposure claims. Proper class codes for dairy labor.",
-    whatsCovered: ["Medical treatment for on-the-job injuries", "Disability and lost-wage benefits for injured workers", "Animal-handling, trampling, and kick injuries", "Parlor slip, fall, and crush injuries", "Equipment, PTO, and skid-loader incidents", "Employers' liability (Part Two) protection"],
-    whoItsFor: ["Dairies with W-2 employees (required in most states)", "Milking and herd crews", "Feeding, field, and equipment operators", "Operations whose workers are misclassified under generic farm codes"],
-    whyCca: ["Class codes structured for actual dairy job categories", "High-hazard dairy labor reflected in the rating — not generic farm codes", "Fast claim handling so injured workers get care without dispute"],
+    heroBlurb: "Workers comp for shoring contractors covers the specific injury patterns of excavation and earth retention work — cave-in injuries, equipment operator injuries, falls in and around excavations, and heavy material handling.",
+    whatsCovered: ["Excavation cave-in injuries and burial incidents","Drill rig, crane, and heavy equipment operator injuries","Falls into excavations and from elevated shoring platforms","Ground movement injuries during shoring installation","Musculoskeletal injuries from heavy shoring material handling","Equipment pinch-point and struck-by injuries"],
+    whoItsFor: ["Shoring installation crews working in and around deep excavations","Drill rig operators on soldier pile and tieback installation","Crane operators handling sheet pile and heavy shoring materials","Underpinning crews working in confined pits below existing foundations"],
+    whyCca: ["Correct classification for shoring and excavation work — not generic construction codes","Carriers who understand shoring operation safety programs and excavation hazards","Multi-state workers comp coordination for shoring contractors who follow projects across state lines","Experience modification management for shoring contractor safety programs"],
     faqs: [
-      { q: "Is workers' comp required for dairy employees?", a: "In most states, yes — once you have employees, workers' comp is mandatory. Dairy work is high-hazard (animal handling, equipment, chemicals), making proper coverage essential for both your crew and your protection." },
-      { q: "What class codes apply to dairy workers?", a: "Dairies carry several — milking and herd workers, feeding and field crews, equipment operators, and office staff. Correct classification matters: wrong codes mean overpayment or undercoverage and audit surprises." },
-      { q: "Are animal-handling injuries covered?", a: "Yes — trampling, crushing, and kick injuries are common dairy workers' comp claims and are covered under a properly structured policy. We make sure high-hazard dairy labor is rated accurately." },
-      { q: "What if my workers are misclassified?", a: "Misclassification leads to premium disputes at audit and gaps in coverage. We assign class codes to your actual workflow so you're neither overpaying nor exposed when a claim happens." },
-      { q: "How are seasonal workers handled?", a: "Seasonal and H-2A labor still needs to be reflected in the policy. We structure the workers' comp to cover your actual seasonal payroll and crew size so an audit doesn't produce a surprise bill." },
+      { q: "What WC class codes apply to shoring contractors?", a: "Shoring work may fall under excavation codes, structural construction codes, or specialty contractor codes depending on your state and specific work type. Correct classification is important — we verify before binding." },
+      { q: "Does WC cover injuries from adjacent structure monitoring work?", a: "Yes. Workers comp covers injuries that occur during any part of your shoring operation, including settlement monitoring, instrumentation installation, and inspection activities." },
     ],
   },
   "commercial-auto": {
-    heroBlurb: "Coverage for the milk tankers, feed and commodity trucks, pickups, tractors, and equipment you run on public roads — including hired and non-owned auto when employees use their own vehicles on dairy business.",
-    whatsCovered: ["Liability for at-fault accidents in milk tankers and feed trucks", "Physical damage to owned vehicles", "Hired and non-owned auto for employees", "Uninsured and underinsured motorist coverage", "Tractors and equipment in transit on public roads", "Loading and unloading liability"],
-    whoItsFor: ["Dairies with owned tankers, feed trucks, or pickups", "Operations hauling milk, feed, or equipment on public roads", "Farms whose employees drive personal vehicles on dairy business", "Operations whose 'farm auto' form excludes over-the-road use"],
-    whyCca: ["Over-the-road trucking exposure factored into the program", "Coordinates with inland marine for milk and feed in transit", "Fleet and single-vehicle programs available"],
+    heroBlurb: "Commercial auto for shoring contractors covers your fleet — service trucks, equipment transporters hauling drill rigs and shoring systems, and vehicles transporting shoring materials to urban excavation sites.",
+    whatsCovered: ["Liability for your commercial vehicle fleet","Physical damage for owned vehicles (collision and comprehensive)","Hired auto for rental vehicles on major projects","Non-owned auto for employees driving personal vehicles on company business","Medical payments and uninsured motorist"],
+    whoItsFor: ["Shoring contractors with drill rig transporters and specialty equipment vehicles","Contractors hauling sheet pile, soldier piles, and heavy shoring materials","Operations with vehicles regularly operating in urban environments near active excavations"],
+    whyCca: ["Fleet programs for multi-vehicle operations","Hired and non-owned auto included — no gaps for employee vehicle use","Urban operations coverage — no restrictions on city or dense urban area work"],
     faqs: [
-      { q: "Is a milk tanker covered under farm auto or commercial auto?", a: "Vehicles used on public roads — including milk tankers and feed trucks — need commercial auto. Farm auto forms often limit or exclude over-the-road trucking. We place commercial auto and coordinate it with cargo/inland marine for the milk itself." },
-      { q: "What is hired and non-owned auto, and do I need it?", a: "It covers liability when employees drive their own vehicles (or rented vehicles) on dairy business. If anyone runs an errand or makes a delivery for the farm in a personal vehicle, you want this coverage." },
-      { q: "Is the milk in the tanker covered by auto?", a: "Auto covers the vehicle and liability. The milk itself is a cargo/inland marine matter. We coordinate both so the tanker and the load are both covered during transport." },
-      { q: "Are tractors on the road covered?", a: "Tractors and equipment driven on public roads can be covered under the commercial auto or a specialized farm-equipment provision. Slow-moving-vehicle exposure is factored into the program." },
+      { q: "Does commercial auto cover my drill rig while it is being transported?", a: "Commercial auto covers your vehicle (the transporter) and its liability while driving. The drill rig itself — as a piece of equipment — is covered by your inland marine floater during transit." },
     ],
   },
-  "pollution-environmental": {
-    heroBlurb: "Covers the environmental exposure every dairy carries — manure storage and lagoon failure, nutrient and fertilizer runoff, fuel and chemical leaks, and the cleanup and third-party claims that follow a release into soil or water.",
-    whatsCovered: ["Manure storage and lagoon failure", "Nutrient, fertilizer, and agrichemical runoff", "Fuel, oil, and chemical leaks and spills", "Third-party bodily injury and property damage from a release", "Cleanup and remediation costs", "Defense costs for environmental claims"],
-    whoItsFor: ["Every dairy with manure storage or a lagoon (essentially all of them)", "Operations in water-quality-regulated or sensitive watershed areas", "Farms that store fuel, fertilizer, or agrichemicals", "Dairies whose standard GL excludes pollution (most do)"],
-    whyCca: ["Pollution coverage written specifically for dairies — not a generic extension", "We document your nutrient-management plan to support placement", "E&S market access for dairies declined over environmental exposure"],
+  "umbrella-excess": {
+    heroBlurb: "Major urban development projects and transit construction increasingly require $5M to $10M in total liability capacity from shoring contractors. Umbrella provides those limits above your primary GL and auto cost-effectively.",
+    whatsCovered: ["Additional limits above primary GL","Additional limits above commercial auto liability","Additional limits above employers liability","Defense costs above primary policy limits"],
+    whoItsFor: ["Shoring contractors on major urban high-rise and transit projects with high limit requirements","Contractors working adjacent to high-value commercial and residential structures","Established shoring contractors with significant project scale"],
+    whyCca: ["Umbrella quotes included with your primary program","Capacity available to $10M and above for major shoring contractors","Fast certificate issuance showing total combined limits for project bid packages"],
     faqs: [
-      { q: "Doesn't my general liability cover a manure spill?", a: "Almost never. Standard GL policies contain a pollution exclusion that removes coverage for the discharge of waste or chemicals. A manure lagoon failure or fertilizer runoff claim is excluded without dedicated environmental liability." },
-      { q: "What's the difference between sudden and gradual pollution coverage?", a: "Sudden coverage pays for an abrupt release (a lagoon breach, a fuel spill). Gradual (or non-sudden) coverage pays for slow releases like long-term nutrient runoff. Dairies usually want both — and many basic forms cover only sudden." },
-      { q: "Will my nutrient-management plan help me get coverage?", a: "Yes. A documented nutrient-management plan, lagoon inspection records, and good housekeeping are exactly what underwriters want to see — and they often improve both placement and pricing." },
-      { q: "What if a neighbor sues over runoff?", a: "Environmental liability covers third-party bodily injury and property damage from a release — including a neighbor's claim over contaminated water or runoff. Defense costs are included." },
-      { q: "Can you insure a dairy that was declined over a lagoon or runoff issue?", a: "Often yes. We have E&S environmental markets for dairies declined by standard carriers over lagoon age, water-quality violations, or location in a sensitive watershed." },
+      { q: "How much umbrella do shoring contractors typically need?", a: "Project requirements vary — $5M total capacity is common on major urban projects; transit and infrastructure projects may require $10M or more. We structure umbrella around your specific project client requirements." },
+    ],
+  },
+  "inland-marine": {
+    heroBlurb: "Your drill rigs, soldier pile drivers, vibratory hammers, tieback grouting equipment, and specialty shoring tools represent major capital. An inland marine floater protects them at project sites, in transit, and at your yard.",
+    whatsCovered: ["Drill rigs and soldier pile driving equipment","Tieback grouting and testing equipment","Sheet pile vibratory hammer systems","Specialty shoring installation tools","Materials staged at project sites"],
+    whoItsFor: ["Shoring contractors with drill rig investments","Tieback and anchor contractors with specialty grouting equipment","Any shoring contractor with high-value equipment deployed at multiple active project sites"],
+    whyCca: ["Equipment coverage at remote urban project sites — not just at a fixed yard","Blanket coverage for equipment fleets without itemized scheduling","Transit coverage door-to-door between projects and yard"],
+    faqs: [
+      { q: "Is my drill rig covered at an urban project site?", a: "Yes — the inland marine floater covers your equipment at project sites, in transit, and at your yard. Urban project sites are not excluded from coverage." },
+    ],
+  },
+  "builders-risk": {
+    heroBlurb: "An installation floater protects shoring materials and installed systems at project sites — soldier piles, sheet pile, tiebacks, and timber lagging staged at active excavation projects before project completion and owner acceptance.",
+    whatsCovered: ["Shoring materials staged at project sites — soldier piles, sheet pile, lagging","Installed shoring systems before project completion","Tieback materials at project sites","Temporary facilities and structures at active excavation projects"],
+    whoItsFor: ["Shoring contractors with significant material inventory staged at active projects","Contractors with installed shoring systems that remain at risk before project acceptance","Any shoring contractor where staged material value at a project site is significant"],
+    whyCca: ["Per-project or annual reporting forms for shoring contractor material profiles","Coverage for shoring materials that are staged in urban environments","Fast coverage confirmation to satisfy project owner requirements"],
+    faqs: [
+      { q: "Is staged soldier pile material at an urban project site covered by GL?", a: "No. GL covers third-party claims, not your own materials. An installation floater covers shoring materials staged at project sites against theft, damage, and loss." },
+    ],
+  },
+  "pollution-liability": {
+    heroBlurb: "Urban shoring and excavation work regularly encounters contaminated soil, groundwater, and underground conditions. Pollution liability covers the third-party claims and cleanup costs from contamination disturbed during your operations that GL excludes.",
+    whatsCovered: ["Third-party bodily injury from contamination disturbed during shoring and excavation","Cleanup costs for pollution conditions created by your excavation operations","Property damage from contaminated soil or groundwater migration","Defense costs for pollution-related claims","Transportation pollution from contaminated materials in transit"],
+    whoItsFor: ["Shoring contractors working in urban brownfield environments","Excavation support contractors in areas with known or suspected soil contamination","Any shoring contractor whose excavation work could disturb underground contamination"],
+    whyCca: ["Pollution liability structured for excavation contractor operations — not just chemical plant CPL","Coverage for disturbed pre-existing contamination in the excavation context","Coordination with GL to ensure no gaps in coverage between pollution and non-pollution claims"],
+    faqs: [
+      { q: "Does GL cover cleanup costs when we hit contaminated soil?", a: "GL typically excludes pollution cleanup costs under the pollution exclusion. Pollution liability specifically covers cleanup costs arising from contamination disturbed during your shoring and excavation operations." },
+      { q: "Is soil contamination always a problem for shoring contractors?", a: "Not always — but in urban environments, especially in older industrial areas, contaminated soil and groundwater are common. Pre-construction environmental assessments help identify risk, but surprises occur. Pollution liability covers those surprises." },
     ],
   },
 };
 
-/* ============================================================
-   COVERAGE REGIONS — coverage page
-   ============================================================ */
 export const AZ_REGIONS = [
-  { name: "Wisconsin", note: "America's Dairyland — heritage and modern freestall dairies" },
-  { name: "California", note: "Central Valley — the largest dairy state by production" },
-  { name: "Pacific Northwest", note: "Oregon, Washington, Idaho — organic and pasture-based herds" },
-  { name: "Northeast & Mid-Atlantic", note: "NY, PA, VT, New England — registered stock and creameries" },
-  { name: "Upper Midwest", note: "Minnesota, Michigan, Iowa — family tie-stall to parlor operations" },
-  { name: "Texas & the Southwest", note: "TX, NM, AZ — large-herd desert dairies" },
-  { name: "U.S. Southeast", note: "FL, GA, the Carolinas — heat, storm, and high-rainfall exposure" },
-  { name: "Great Plains", note: "KS, NE, the Dakotas — herd, feed, and trucking operations" },
-];
+  { name: "Phoenix Metro", note: "Serving shoring contractors throughout greater Phoenix including Chandler, Mesa, Tempe, Scottsdale, and Gilbert." },
+  { name: "Tucson", note: "Shoring contractor programs for southern Arizona operations." },
+  { name: "Scottsdale", note: "Excavation support contractor coverage for Scottsdale and northeast Phoenix development projects." },
+  { name: "Mesa", note: "Shoring and underpinning contractor insurance for Mesa and East Valley construction projects." },
+] as const;
 
 export const US_STATES = [
-  "Alabama","Alaska","Arizona","Arkansas","California","Colorado","Connecticut",
-  "Delaware","Florida","Georgia","Hawaii","Idaho","Illinois","Indiana","Iowa",
-  "Kansas","Kentucky","Louisiana","Maine","Maryland","Massachusetts","Michigan",
-  "Minnesota","Mississippi","Missouri","Montana","Nebraska","Nevada","New Hampshire",
-  "New Jersey","New Mexico","New York","North Carolina","North Dakota","Ohio",
-  "Oklahoma","Oregon","Pennsylvania","Rhode Island","South Carolina","South Dakota",
-  "Tennessee","Texas","Utah","Vermont","Virginia","Washington","West Virginia",
-  "Wisconsin","Wyoming",
-];
+  "Alabama","Alaska","Arizona","Arkansas","California","Colorado","Connecticut","Delaware",
+  "Florida","Georgia","Hawaii","Idaho","Illinois","Indiana","Iowa","Kansas","Kentucky",
+  "Louisiana","Maine","Maryland","Massachusetts","Michigan","Minnesota","Mississippi",
+  "Missouri","Montana","Nebraska","Nevada","New Hampshire","New Jersey","New Mexico",
+  "New York","North Carolina","North Dakota","Ohio","Oklahoma","Oregon","Pennsylvania",
+  "Rhode Island","South Carolina","South Dakota","Tennessee","Texas","Utah","Vermont",
+  "Virginia","Washington","West Virginia","Wisconsin","Wyoming",
+] as const;
 
 export const QUOTE_SERVICE_TYPES = [
-  "Livestock / Dairy Cattle Mortality",
-  "Farm Property & Buildings",
-  "Equipment Breakdown & Milk Spoilage",
-  "Dairy Product Liability",
   "General Liability Insurance",
+  "Professional Liability (E&O)",
   "Workers' Compensation",
-  "Commercial Auto / Trucking",
-  "Pollution / Environmental Liability",
-  "Full program / bundle (recommended)",
-  "Not sure — help me figure it out",
-];
+  "Commercial Auto",
+  "Umbrella / Excess Liability",
+  "Inland Marine / Equipment Floater",
+  "Builders Risk / Installation Floater",
+  "Pollution Liability",
+  "Full Program (Multiple Lines)",
+] as const;
 
 export const YEARS_OPTIONS = [
   "Less than 1 year",
-  "1–2 years",
-  "3–5 years",
-  "6–10 years",
+  "1-2 years",
+  "3-5 years",
+  "6-10 years",
   "10+ years",
-];
+] as const;
