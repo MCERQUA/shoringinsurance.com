@@ -271,7 +271,7 @@ export const HOME_FAQS = [
   { q: "Do shoring contractors need separate coverage for tieback installation?", a: "Tieback installation — drilling and grouting anchors to retain shoring walls — is typically covered within a shoring contractor's GL and professional liability program. The specific tieback installation operations, grouting, and anchor testing are part of the shoring scope that your program addresses." },
   { q: "What documentation helps with shoring contractor insurance claims?", a: "Pre-construction surveys of adjacent structures, monitoring data from settlement instrumentation, project records showing shoring design specifications were followed, inspection reports during shoring installation, and communication records documenting any deviation approvals. This documentation supports both professional liability defense and GL claim handling." },
   { q: "Can I get shoring contractor insurance if I have prior claims?", a: "Yes, in most cases. Prior claims don't automatically disqualify you — underwriters review circumstances, what changed, and your current safety and quality programs. We work with multiple carriers who write shoring contractors with prior claims history." },
-  { q: "How do I contact Shoring Insurance?", a: "Call 844-967-5247 (Mon–Fri 8am–5pm MST), email josh@contractorschoiceagency.com, or submit the online quote form. We are at 12220 E Riggs Road, Suite #105, Chandler AZ 85249. NPN 8608479, licensed all 50 states." },
+  { q: "How do I contact Shoring Insurance?", a: "Call 844-967-5247 (Mon–Fri 8am–5pm MST), email josh@contractorschoiceagency.com, or submit the online quote form. We are at 12220 E Riggs Road, Suite #104, Chandler AZ 85249. NPN 8608479, licensed all 50 states." },
 ] as const;
 
 export const GENERAL_FAQS = [
@@ -286,7 +286,7 @@ export const GENERAL_FAQS = [
   { q: "Can you handle professional liability for design-build shoring?", a: "Yes. Professional liability for design-build shoring contractors is a core part of our program. We structure E&O coverage for the professional services component of your shoring work." },
   { q: "Do you coordinate workers comp across states for shoring contractors?", a: "Yes. Multi-state workers comp coordination is standard for shoring contractors who follow projects across state lines." },
   { q: "Phone number?", a: "844-967-5247, Monday through Friday 8am to 5pm Mountain Time." },
-  { q: "Office location?", a: "12220 E Riggs Road, Suite #105, Chandler, AZ 85249." },
+  { q: "Office location?", a: "12220 E Riggs Road, Suite #104, Chandler, AZ 85249." },
   { q: "Email?", a: "josh@contractorschoiceagency.com." },
   { q: "Can I get a quote online?", a: "Yes. Submit the quote form at shoringinsurance.com/quote and we will respond within 15 minutes during business hours." },
 ] as const;
