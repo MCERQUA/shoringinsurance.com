@@ -216,23 +216,3 @@ export const STATS = [
   { value: 50, suffix: "", label: "States licensed & writing", prefix: "" },
 ] as const;
 
-export const TESTIMONIALS = [
-  {
-    quote: "We do soldier pile and tieback shoring on urban high-rise projects. The adjacent structure risk and professional liability exposure from our engineered designs make generic contractor insurance completely inadequate. Shoring Insurance put us with a carrier who understands what we do — GL and E&O coordinated so there are no gaps.",
-    name: "Lisa M.",
-    role: "Owner, Urban Shoring Specialists",
-    location: "California",
-  },
-  {
-    quote: "We hit contaminated soil on a deep excavation project and had to stop work for environmental assessment. The pollution liability coverage we had through CCA covered our cleanup costs and the third-party claims that followed. That coverage saved our company from a six-figure uninsured loss.",
-    name: "Robert K.",
-    role: "President, Deep Foundation Contractors",
-    location: "New York",
-  },
-  {
-    quote: "Underpinning adjacent structures is high-liability work. The structural damage exposure is real and the insurance industry doesn't always understand it. CCA got us with a carrier who does — our GL is structured for adjacent structure protection, not a generic contractor program that might deny the claim.",
-    name: "Ana P.",
-    role: "Operations Director",
-    location: "Texas",
-  },
-] as const;

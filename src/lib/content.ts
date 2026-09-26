@@ -60,11 +60,6 @@ export const COPY = {
   process: {
     lead: "Getting shoring contractor insurance shouldn't slow your projects down. Our process is built for fast turnaround.",
   },
-  testimonials: {
-    eyebrow: "What shoring contractors say",
-    h2Lead: "Trusted by Shoring and Excavation",
-    h2Highlight: "Contractors Nationwide",
-  },
   finalCta: {
     h2Lead: "Ready to Protect Your",
     h2Highlight: "Shoring Business?",
@@ -144,7 +139,7 @@ export const COPY = {
     errorMessage: "Something went wrong. Please call us at 844-967-5247.",
     businessPlaceholder: "ABC Shoring Contractors LLC",
     emailPlaceholder: "you@shoringcontractors.com",
-    phonePlaceholder: "(555) 000-0000",
+    phonePlaceholder: "Best number to reach you",
     messagePlaceholder:
       "Tell us about your shoring operation — system types (soldier pile, sheet pile, underpinning, tiebacks), design-build vs install-only, typical project types, states, annual revenue...",
   },
